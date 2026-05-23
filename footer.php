@@ -48,17 +48,17 @@
 								<div class="col-6 col-lg-4 col-md-4 widget padding-20px-lr">
 									<div class="widget-title text-black text-medium margin-10px-bottom font-weight-400 text-uppercase border-bottom-Widget"> Quick Links</div>
 									<ul class="list-unstyled no-margin-bottom font-weight-600">
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/admissions/"> Admissions </a></li>
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/"> About Sloka </a></li>
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/what-is-waldorf-education/"> Waldorf Education </a></li>
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/curriculum/"> Curriculum </a></li>
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/teachers/"> Meet the Teachers </a></li>
-										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/' ) ); ?>/teacher-training/"> Waldorf Teacher Training </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>"> Admissions </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/about-sloka/' ) ); ?>"> About Sloka </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/what-is-waldorf-education/' ) ); ?>"> Waldorf Education </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/curriculum/' ) ); ?>"> Curriculum </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/teachers/' ) ); ?>"> Meet the Teachers </a></li>
+										<li><a class="text-theme" href="<?php echo esc_url( home_url( '/teacher-training/' ) ); ?>"> Waldorf Teacher Training </a></li>
 									</ul>
 									<!-- end logo -->
 
 									<div class="padding-10px-tb PrivacyLinks">
-										<span class="padding-20px-top padding-20px-right text-small"> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/privacy-policy/"> Privacy policy </a></span>
+										<span class="padding-20px-top padding-20px-right text-small"> <a href="<?php echo esc_url( home_url( '/privacy-policy/' ) ); ?>"> Privacy policy </a></span>
 									</div>
 
 								</div>
