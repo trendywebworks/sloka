@@ -176,10 +176,10 @@
                     <div class="row align-items-center">
                         <div class="col-md-12 text-black">
 							
-                            <a href="<?php echo esc_url( home_url( '/' ) ); ?>/11th-12th-admissions/" class="text-black"> Admissions for  <span class="font-weight-600"> Grade XI Humanities and Commerce </span> now open. In our 27th academic year in <b>2026-27</b>, we’re overjoyed to extend our curriculum exclusively to the Humanities stream for Grade 11. </a>
+                            <a href="<?php echo esc_url( home_url( '/11th-12th-admissions/' ) ); ?>" class="text-black"> Admissions for  <span class="font-weight-600"> Grade XI Humanities and Commerce </span> now open. In our 27th academic year in <b>2026-27</b>, we’re overjoyed to extend our curriculum exclusively to the Humanities stream for Grade 11. </a>
 							
 							<!--
-							<a href="<?php //echo esc_url( home_url( '/' ) ); ?>/11th-12th-admissions/" class="text-black"> <strong>Admissions open for Grade XI</strong> </a>
+							<a href="<?php //echo esc_url( home_url( '/11th-12th-admissions/' ) ); ?>" class="text-black"> <strong>Admissions open for Grade XI</strong> </a>
 							-->
                         </div> 
                     </div>
@@ -225,7 +225,7 @@
 								 
 								<!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/">  About </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="<?php echo esc_url( home_url( '/about-sloka/' ) ); ?>">  About </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     <!-- start sub menu -->
                                     <div class="menu-back-div dropdown-menu megamenu-content mega-menu collapse mega-menu-full">
                                         <ul class="justify-content-center"> 
@@ -233,13 +233,13 @@
                                             <li class="mega-menu-column col-lg-5">
                                                 <!-- start sub menu item  -->
                                                 <ul> 
-													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/#The-Sloka-Legacy"> The Sloka Legacy </a>  </li>
+													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/about-sloka/#The-Sloka-Legacy' ) ); ?>"> The Sloka Legacy </a>  </li>
 													
-													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/#Why-Sloka"> Why Sloka </a>  </li>
+													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/about-sloka/#Why-Sloka' ) ); ?>"> Why Sloka </a>  </li>
 													
-													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/#The-Waldorf-Difference"> The Waldorf Difference </a>  </li>
+													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/about-sloka/#The-Waldorf-Difference' ) ); ?>"> The Waldorf Difference </a>  </li>
 													
-													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/#Leadership-Governance"> Leadership & Governance </a>  </li> 
+													<li> <a class="inner-link" href="<?php echo esc_url( home_url( '/about-sloka/#Leadership-Governance' ) ); ?>"> Leadership & Governance </a>  </li> 
                                                 </ul>
                                                 <!-- end sub menu item  -->
                                             </li>
@@ -252,7 +252,7 @@
 														<div class="w-100"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/About-Menu-Pic-01-02.jpg"> </div>
 														
 														<div class="CornerBtn3">
-															<a class="alt-font" href="<?php echo esc_url( home_url( '/' ) ); ?>/about-sloka/"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
+															<a class="alt-font" href="<?php echo esc_url( home_url( '/about-sloka/' ) ); ?>"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
 														</div>
 														
 														<div class="GlobalEduHeader2">
@@ -272,7 +272,7 @@
 								
 								<!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/curriculum/"> Curriculum </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="<?php echo esc_url( home_url( '/curriculum/' ) ); ?>"> Curriculum </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     <!-- start sub menu -->
                                     <div class="menu-back-div dropdown-menu megamenu-content mega-menu collapse mega-menu-full">
                                         <ul class="justify-content-center"> 
@@ -280,13 +280,13 @@
                                             <li class="mega-menu-column col-lg-5">
                                                 <!-- start sub menu item  -->
                                                 <ul> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/curriculum/"> Curriculum </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/what-is-waldorf-education/"> What is Waldorf Education? </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/mixed-age-kindergarten/"> Mixed-age Kindergarten </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/lower-school/"> Lower School </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/middle-school/"> Middle School </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/high-school/"> High School </a>  </li>
-                                                    <li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/mandatory-public-disclosure/"> Mandatory Public Disclosure </a>  </li>
+													<li> <a href="<?php echo esc_url( home_url( '/curriculum/' ) ); ?>"> Curriculum </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/what-is-waldorf-education/' ) ); ?>"> What is Waldorf Education? </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/mixed-age-kindergarten/' ) ); ?>"> Mixed-age Kindergarten </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/lower-school/' ) ); ?>"> Lower School </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/middle-school/' ) ); ?>"> Middle School </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/high-school/' ) ); ?>"> High School </a>  </li>
+                                                    <li> <a href="<?php echo esc_url( home_url( '/mandatory-public-disclosure/' ) ); ?>"> Mandatory Public Disclosure </a>  </li>
                                                 </ul>
                                                 <!-- end sub menu item  -->
                                             </li>
@@ -299,7 +299,7 @@
 														<div class="w-100"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/Curriculum-Menu-Pic-01-02.jpg"> </div>
 														
 														<div class="CornerBtn3">
-															<a class="alt-font" href="<?php echo esc_url( home_url( '/' ) ); ?>/curriculum/"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
+															<a class="alt-font" href="<?php echo esc_url( home_url( '/curriculum/' ) ); ?>"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
 														</div>
 														
 														<div class="GlobalEduHeader2">
@@ -318,7 +318,7 @@
 								
 								<!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/teachers/">  Teachers </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="<?php echo esc_url( home_url( '/teachers/' ) ); ?>">  Teachers </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     <!-- start sub menu -->
                                     <div class="menu-back-div dropdown-menu megamenu-content mega-menu collapse mega-menu-full">
                                         <ul class="justify-content-center"> 
@@ -326,9 +326,9 @@
                                             <li class="mega-menu-column col-lg-5">
                                                 <!-- start sub menu item  -->
                                                 <ul> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/teachers/"> Teachers </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/teacher-training/"> Teacher Training </a>  </li>
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/join-the-team/"> Join the Team </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/teachers/' ) ); ?>"> Teachers </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/teacher-training/' ) ); ?>"> Teacher Training </a>  </li>
+													<li> <a href="<?php echo esc_url( home_url( '/join-the-team/' ) ); ?>"> Join the Team </a>  </li> 
                                                 </ul>
                                                 <!-- end sub menu item  -->
                                             </li>
@@ -341,7 +341,7 @@
 														<div class="w-100"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/Teachers-Menu-Pic-01-02.jpg"> </div>
 														
 														<div class="CornerBtn3">
-															<a class="alt-font" href="<?php echo esc_url( home_url( '/' ) ); ?>/teachers/"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
+															<a class="alt-font" href="<?php echo esc_url( home_url( '/teachers/' ) ); ?>"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
 														</div> 
 														<div class="GlobalEduHeader2">
 															 The best teachers are lifelong learners 
@@ -359,7 +359,7 @@
 								
 								<!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/life-at-sloka/"> Life at Sloka  </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="<?php echo esc_url( home_url( '/life-at-sloka/' ) ); ?>"> Life at Sloka  </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     <!-- start sub menu -->
                                     <div class="menu-back-div dropdown-menu megamenu-content mega-menu collapse mega-menu-full">
                                         <ul class="justify-content-center"> 
@@ -367,12 +367,12 @@
                                             <li class="mega-menu-column col-lg-5">
                                                 <!-- start sub menu item  -->
                                                 <ul> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/life-at-sloka/"> Life at Sloka </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/the-campus/"> The Campus </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/the-arts-at-sloka/"> The Arts at Sloka </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/sports-athletics/"> Sports & Athletics </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/alumni/"> Alumni </a>  </li> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/global-education/"> Global Education </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/life-at-sloka/' ) ); ?>"> Life at Sloka </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/the-campus/' ) ); ?>"> The Campus </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/the-arts-at-sloka/' ) ); ?>"> The Arts at Sloka </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/sports-athletics/' ) ); ?>"> Sports & Athletics </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/alumni/' ) ); ?>"> Alumni </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/global-education/' ) ); ?>"> Global Education </a>  </li> 
                                                 </ul>
                                                 <!-- end sub menu item  -->
                                             </li>
@@ -385,7 +385,7 @@
 														<div class="w-100"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/Life-at-Sloka-Menu-Pic-01-02.jpg"> </div>
 														
 														<div class="CornerBtn3">
-															<a class="alt-font" href="<?php echo esc_url( home_url( '/' ) ); ?>/life-at-sloka/"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
+															<a class="alt-font" href="<?php echo esc_url( home_url( '/life-at-sloka/' ) ); ?>"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
 														</div> 
 														<div class="GlobalEduHeader2">
 															 Art as language. Curiosity as culture. 
@@ -443,7 +443,7 @@
 								
 								<!-- start menu item -->
                                 <li class="dropdown megamenu-fw">
-                                    <a href="<?php echo esc_url( home_url( '/' ) ); ?>/contact-sloka-waldorf/"> Get in Touch  </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
+                                    <a href="<?php echo esc_url( home_url( '/contact-sloka-waldorf/' ) ); ?>"> Get in Touch  </a> <i class="text-white fas fa-caret-down dropdown-toggle" data-toggle="dropdown" aria-hidden="true"></i>
                                     <!-- start sub menu -->
                                     <div class="menu-back-div dropdown-menu megamenu-content mega-menu collapse mega-menu-full">
                                         <ul class="justify-content-center"> 
@@ -451,9 +451,9 @@
                                             <li class="mega-menu-column col-lg-5">
                                                 <!-- start sub menu item  -->
                                                 <ul> 
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/contact-sloka-waldorf/"> Contact Us </a>  </li>  
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/philanthropy/"> Philanthropy </a>  </li>  
-													<li> <a href="<?php echo esc_url( home_url( '/' ) ); ?>/faqs/"> FAQs </a>  </li> 
+													<li> <a href="<?php echo esc_url( home_url( '/contact-sloka-waldorf/' ) ); ?>"> Contact Us </a>  </li>  
+													<li> <a href="<?php echo esc_url( home_url( '/philanthropy/' ) ); ?>"> Philanthropy </a>  </li>  
+													<li> <a href="<?php echo esc_url( home_url( '/faqs/' ) ); ?>"> FAQs </a>  </li> 
                                                 </ul>
                                                 <!-- end sub menu item  -->
                                             </li>
@@ -466,7 +466,7 @@
 														<div class="w-100"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/Contact-Us-Menu-Pic-01-02.jpg"> </div>
 														
 														<div class="CornerBtn3">
-															<a class="alt-font" href="<?php echo esc_url( home_url( '/' ) ); ?>/contact-sloka-waldorf/"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
+															<a class="alt-font" href="<?php echo esc_url( home_url( '/contact-sloka-waldorf/' ) ); ?>"> <img src="<?php echo get_bloginfo('template_directory'); ?>/images/RightWhiteArrow-01.svg"> </a> 
 														</div> 
 														<div class="GlobalEduHeader2">
 															 Have a question?
@@ -483,7 +483,7 @@
                                 <!-- end menu item -->
 								 
 								<li > 
-									<div class="AdmissionsBtn btn-dual"><a href="<?php echo esc_url( home_url( '/' ) ); ?>/admissions/" class="btn btn-black2 btn-medium sm-margin-two-all">  Admissions  </a></div>
+									<div class="AdmissionsBtn btn-dual"><a href="<?php echo esc_url( home_url( '/admissions/' ) ); ?>" class="btn btn-black2 btn-medium sm-margin-two-all">  Admissions  </a></div>
 								</li>
 								 
                             </ul>
