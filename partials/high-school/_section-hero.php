@@ -20,13 +20,13 @@
                             </div>
                             <div class="CurriculumSubMenu alt-font wow fadeIn" data-wow-delay="0.6s">
                                 <ul>
-                                    <li><a href="https://slokawaldorf.in//what-is-waldorf-education/"> Waldorf Education
+                                    <li><a href="https://slokawaldorf.in/what-is-waldorf-education/"> Waldorf Education
                                         </a></li>
-                                    <li><a href="https://slokawaldorf.in//mixed-age-kindergarten/"> Mixed-Age
+                                    <li><a href="https://slokawaldorf.in/mixed-age-kindergarten/"> Mixed-Age
                                             Kindergarten </a></li>
-                                    <li><a href="https://slokawaldorf.in//lower-school/"> Lower School </a></li>
-                                    <li><a href="https://slokawaldorf.in//middle-school/"> Middle School </a></li>
-                                    <li><a class="active" href="https://slokawaldorf.in//high-school/"> High School </a>
+                                    <li><a href="https://slokawaldorf.in/lower-school/"> Lower School </a></li>
+                                    <li><a href="https://slokawaldorf.in/middle-school/"> Middle School </a></li>
+                                    <li><a class="active" href="https://slokawaldorf.in/high-school/"> High School </a>
                                     </li>
                                 </ul>
                             </div>

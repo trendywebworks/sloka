@@ -107,7 +107,7 @@
 
                             <div class="BtnSloka"><a
                                     class="alt-font text-theme margin-5px-all lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-margin-10px-lr sm-text-left"
-                                    href="https://slokawaldorf.in//admissions/"> Apply Now <span
+                                    href="https://slokawaldorf.in/admissions/"> Apply Now <span
                                         class="margin-5px-left"> <img class="BtnArrow"
                                             src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg" />
                                     </span> </a></div>

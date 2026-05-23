@@ -63,7 +63,7 @@
                                     fulfil one’s aspirations and contribute to the world at large. We then have a
                                     balanced individual. </p>
                                 <div class="BtnSloka">
-                                    <a href="https://slokawaldorf.in//what-is-waldorf-education/"
+                                    <a href="https://slokawaldorf.in/what-is-waldorf-education/"
                                         class="alt-font text-theme margin-5px-all lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-margin-10px-right sm-no-margin-left sm-text-left padding-20px-right">
                                         What is Waldorf Education? <span class="margin-5px-left"> <img class="BtnArrow"
                                                 src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg">

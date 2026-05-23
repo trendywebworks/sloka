@@ -38,7 +38,7 @@
                                 the school. </p>
 
                             <div class="BtnSloka">
-                                <a href="https://slokawaldorf.in//teachers/"
+                                <a href="https://slokawaldorf.in/teachers/"
                                     class="alt-font text-theme margin-5px-all lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-no-margin-lr sm-text-left">
                                     Meet the Teachers <span class="margin-5px-left"> <img class="BtnArrow"
                                             src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg">

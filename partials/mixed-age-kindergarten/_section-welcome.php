@@ -65,7 +65,7 @@
                         activities instils a sense of grounding and balance. </P>
 
                     <div class="BtnSloka">
-                        <a href="https://slokawaldorf.in//admissions/"
+                        <a href="https://slokawaldorf.in/admissions/"
                             class="alt-font text-theme lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-margin-10px-right sm-no-margin-left sm-text-left">
                             Apply Now <span class="margin-5px-left"> <img class="BtnArrow"
                                     src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg">
