@@ -224,7 +224,7 @@
         <div class="row align-items-center padding-10px-bottom">
             <div class="col-12 text-center">
                 <div class="BtnSloka">
-                    <a href="https://slokawaldorf.in//curriculum/"
+                    <a href="https://slokawaldorf.in/curriculum/"
                         class="alt-font text-theme margin-5px-all lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto">
                         Curriculum <span class="margin-5px-left"> <img class="BtnArrow"
                                 src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg">

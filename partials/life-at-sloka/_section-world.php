@@ -15,7 +15,7 @@
                             to a variety of perspectives and possibilities. </p>
 
                         <div class="BtnSloka">
-                            <a href="https://slokawaldorf.in//global-education/"
+                            <a href="https://slokawaldorf.in/global-education/"
                                 class="alt-font text-theme margin-5px-all lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-margin-10px-lr sm-text-left padding-20px-right">
                                 Global Education <span class="margin-5px-left"> <img class="BtnArrow"
                                         src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg">
@@ -43,7 +43,7 @@
                     <!-- start interactive banners item -->
                     <div class="col-12 col-lg-6 banner-style3 margin-30px-bottom wow fadeIn">
                         <div class="GlobalEduContainer box-shadow-sloka">
-                            <a href="https://slokawaldorf.in//global-education/">
+                            <a href="https://slokawaldorf.in/global-education/">
                                 <figure class="bg-light-purple">
                                     <div class="banner-image bg-light-purple">
                                         <div Class="GlobalPic">
@@ -70,7 +70,7 @@
                     <!-- start interactive banners item -->
                     <div class="col-12 col-lg-6 banner-style3 margin-30px-bottom wow fadeIn" data-wow-delay="0.2s">
                         <div class="GlobalEduContainer box-shadow-sloka">
-                            <a href="https://slokawaldorf.in//global-education/">
+                            <a href="https://slokawaldorf.in/global-education/">
                                 <figure class="bg-light-purple">
                                     <div class="banner-image bg-light-purple">
                                         <div Class="GlobalPic">
@@ -97,7 +97,7 @@
                     <!-- start interactive banners item -->
                     <div class="col-12 col-lg-6 banner-style3 margin-30px-bottom wow fadeIn" data-wow-delay="0.4s">
                         <div class="GlobalEduContainer box-shadow-sloka">
-                            <a href="https://slokawaldorf.in//global-education/">
+                            <a href="https://slokawaldorf.in/global-education/">
                                 <figure class="bg-light-purple">
                                     <div class="banner-image bg-light-purple">
                                         <div Class="GlobalPic">

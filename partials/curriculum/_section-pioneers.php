@@ -20,7 +20,7 @@
 
 
                             <div class="BtnSloka">
-                                <a href="https://slokawaldorf.in//what-is-waldorf-education/"
+                                <a href="https://slokawaldorf.in/what-is-waldorf-education/"
                                     class="alt-font text-theme lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto sm-text-left sm-margin-10px-right sm-no-margin-left">
                                     What is Waldorf Education? <span class="margin-5px-left"> <img class="BtnArrow"
                                             src="https://slokawaldorf.in/wp-content/themes/sloka/images/RightArrow-BlueBG2.svg"

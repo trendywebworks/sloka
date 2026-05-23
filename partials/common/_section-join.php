@@ -22,8 +22,8 @@
                 </div>
                 
                 <div class="BtnBgPurple">
-                    <span> <a href="https://slokawaldorf.in//admissions/"> Apply Now </a> </span>
-                    <span> <a href="https://slokawaldorf.in//faqs/"> All FAQs </a> </span> 
+                    <span> <a href="https://slokawaldorf.in/admissions/"> Apply Now </a> </span>
+                    <span> <a href="https://slokawaldorf.in/faqs/"> All FAQs </a> </span> 
                 </div>
                     
             </div> 
