@@ -623,8 +623,7 @@ Template Name: Home
 	}
 	.modal-body .modal-copy {
 		width:100%;
-		height:500px;
-		overflow:scroll;
+		height:auto;
 	}
 	.wpcf7 form.sent .wpcf7-response-output {
 		border-color: #46b450;
