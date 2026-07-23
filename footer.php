@@ -208,7 +208,7 @@
 			  <p>
 				  Enroll Your Details
 			  </p>
-			  <?php echo apply_shortcodes( '[contact-form-7 id="c5486e4" title="Popup Form"]' ); ?>
+			  <?php //echo apply_shortcodes( '[contact-form-7 id="c5486e4" title="Popup Form"]' ); ?>
 		  </div>
 
       </div>
@@ -216,6 +216,7 @@
   </div>
 </div>
 -->
+<!--
 <div class="modal" tabindex="-1" role="dialog" id="myModal">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -231,13 +232,33 @@
 			  <p>
 				  Submit Your Details
 			  </p>
-			  <?php echo apply_shortcodes( '[contact-form-7 id="93118cc" title="Popup Admission Form"]' ); ?>
+			  <?php //echo apply_shortcodes( '[contact-form-7 id="93118cc" title="Popup Admission Form"]' ); ?>
 		  </div>
 
       </div>
     </div>
   </div>
 </div>
+-->
+
+<div class="modal" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+
+      <div class="modal-body">
+		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+
+		<div class="modal-copy">
+			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/sstep.webp" alt="Sloka Steiner Teacher Education Programme" class="img-responsive">
+		</div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
 
 <!-- javascript libraries -->
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.js"></script>
