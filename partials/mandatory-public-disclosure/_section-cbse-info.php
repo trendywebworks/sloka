@@ -54,12 +54,12 @@
                                         <tr>
                                             <th scope="row">5</th>
                                             <td>Principal’s Name</td>
-                                            <td>Kanumuri Padmaja</td>
+                                            <td>Potluri Radhika Rani</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">6</th>
                                             <td>Principal’s Qualification</td>
-                                            <td>M.A. (English), B.Ed</td>
+                                            <td>MSC, B.Ed</td>
                                         </tr>
                                         <tr>
                                             <th scope="row">7</th>
@@ -142,6 +142,16 @@
                                             <td>Copy of sanitation certificate</td>
                                             <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/sanitary-certificate-2026.pdf" target="_blank" rel="noopener"> View </a></td>
                                         </tr>
+                                        <tr>
+                                            <th scope="row">9</th>
+                                            <td>List of School Management Committee (SMC)</td>
+                                            <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2024/04/SMC.pdf" target="_blank" rel="noopener"> View </a></td>
+                                        </tr>
+                                        <tr>
+                                            <th scope="row">10</th>
+                                            <td>List of Parent Teachers Association (PTA) Members</td>
+                                            <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/PTA-25-26.pdf" target="_blank" rel="noopener"> View </a></td>
+                                        </tr>
                                     </tbody>
                                 </table>
                             </div>
@@ -175,25 +185,15 @@
                                             <th scope="row">3</th>
                                             <td>Annual academic calendar</td>
                                             <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/Sloka-calender-for-grades-6-to-12-25-26.pdf" target="_blank" rel="noopener"> View </a></td>
-                                        </tr>
+                                        </tr>                                        
                                         <tr>
                                             <th scope="row">4</th>
-                                            <td>List of School Management Committee (SMC)</td>
-                                            <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2024/04/SMC.pdf" target="_blank" rel="noopener"> View </a></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">5</th>
-                                            <td>List of Parent Teachers Association (PTA) Members</td>
-                                            <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/PTA-25-26.pdf" target="_blank" rel="noopener"> View </a></td>
-                                        </tr>
-                                        <tr>
-                                            <th scope="row">6</th>
                                             <td>Last Three-Year result of the board examination as per applicablility
                                             </td>
                                             <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/3-year-result-2026.pdf" target="_blank" rel="noopener"> View </a></td>
                                         </tr>
                                         <tr>
-                                            <th scope="row">7</th>
+                                            <th scope="row">5</th>
                                             <td>Student Head Count</td>
                                             <td><a class="text-purple" href="https://slokawaldorf.in/wp-content/uploads/2026/05/student-head-count-25-26-feb-25-26.pdf" target="_blank" rel="noopener"> View </a></td>
                                         </tr>
