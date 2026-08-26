@@ -640,11 +640,11 @@ Template Name: Home
 
 
 <script>
-	$(window).on('load',function(){
-		var delayMs = 1500; // delay in milliseconds
+	//$(window).on('load',function(){
+		//var delayMs = 1500; // delay in milliseconds
 
-		setTimeout(function(){
-			$('#myModal').modal('show');
-		}, delayMs);
-	});
+		//setTimeout(function(){
+			//$('#myModal').modal('show');
+		//}, delayMs);
+	//});
 </script>
