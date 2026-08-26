@@ -334,102 +334,26 @@
 
 $(document).ready(function() {
 
- $('#datepicker').datepicker();
+ $('#datepicker, #dob, #alumni_date').datepicker({
+	format: 'dd/mm/yyyy',
+	autoclose: true
+ });
 
+ function toggleStreamInterestField() {
+	var selectedGrade = $('#admission_opted_for').val();
+	var shouldShow = selectedGrade === '15' || selectedGrade === '16';
 
- function calculateAgeAndClass(birthDate) {
-  const referenceDate = new Date('31-Dec-2024');
-  const birthDateObj = new Date(birthDate);
+	if (shouldShow) {
+		$('#streamInterestField').show();
+		$('#stream_interest').attr('required', true);
+	} else {
+		$('#streamInterestField').hide();
+		$('#stream_interest').removeAttr('required').val('');
+	}
+ }
 
-  if (isNaN(birthDateObj.getTime())) {
-    return 'Invalid date format';
-  }
-
-  // Calculate age
-  const ageInYears = referenceDate.getFullYear() - birthDateObj.getFullYear();
-  if (
-    birthDateObj.getMonth() > referenceDate.getMonth() ||
-    (birthDateObj.getMonth() === referenceDate.getMonth() && birthDateObj.getDate() > referenceDate.getDate())
-  ) {
-    // Adjust age if birthday hasn't occurred yet in the current year
-    return ageInYears - 1;
-  }
-
-  // Determine class group
-  const classes = [
-    //{ className: 'Class 11', bornBefore: new Date('31-July-2008'), minAge: 15.3, value: 15 },
-    { className: 'Class 10', bornBefore: new Date('31-July-2009'), minAge: 15, value: 14 },
-    { className: 'Class 9', bornBefore: new Date('31-July-2010'), minAge: 14, value: 13 },
-    { className: 'Class 8', bornBefore: new Date('31-July-2011'), minAge: 13, value: 12 },
-    { className: 'Class 7', bornBefore: new Date('31-July-2012'), minAge: 12, value: 11 },
-    { className: 'Class 6', bornBefore: new Date('31-July-2013'), minAge: 11, value: 10 },
-    { className: 'Class 5', bornBefore: new Date('31-July-2014'), minAge: 10, value: 9 },
-    { className: 'Class 4', bornBefore: new Date('31-July-2015'), minAge: 9, value: 8 },
-    { className: 'Class 3', bornBefore: new Date('31-July-2016'), minAge: 8, value: 7 },
-    { className: 'Class 2', bornBefore: new Date('31-July-2017'), minAge: 7, value: 6 },
-    { className: 'Class 1', bornBefore: new Date('31-July-2018'), minAge: 6, value: 5 },
-    { className: 'KG-2', bornBefore: new Date('31-July-2019'), minAge: 5, value: 4 },
-    { className: 'KG-1', bornBefore: new Date('31-July-2020'), minAge: 4, value: 3 },
-    { className: 'Nursery', bornBefore: new Date('31-July-2021'), minAge: 3, value: 2 },
-    { className: 'Playgroup', bornBefore: new Date('31-Jan-2022'), minAge: 2.5, value: 1 },
-  ];
-
-
-
-  for (const classInfo of classes) {
-    if (birthDateObj <= classInfo.bornBefore && ageInYears >= classInfo.minAge) {
-      return classInfo;
-    }
-  }
-
-  return false;
-}
-
-		function getCategory(age) {
-			if (age >= 2.5 && age < 5) {
-				return 3;
-			} else if (age >= 5 && age <= 10) {
-				return 5;
-			} else if (age >= 11 && age <= 13) {
-				return 9;
-			} else if (age >= 14 && age <= 18) {
-				return 12;
-			} else {
-				return 'Category not found for this age';
-			}
-		}
-
-		$('#dob').on('change', function() {
-			var birthdate = $(this).val();
-			var today = new Date();
-			var birthDate = new Date(birthdate);
-
-			const result = calculateAgeAndClass(birthDate);
-            console.log('Child Age:', birthDate);
-            console.log('Class Group:', result);
-
-         if(result)   {
-        var newHTML = '<div class="input-container2 sm-margin-20px-bottom">' +
-            '<input id="Mixed-Age Kindergarten" class="radio-button2" type="radio" checked name="admission_opted_for" value="'+result.value+'" required title="Please Select One Option">' +
-            '<div class="radio-tile2">' +
-            '<label for="2023 Intake" class="radio-tile-label2 no-margin-bottom"><strong style="font-size: x-large;">'+result.className+'</strong><br/> <span class="text-small main-font"> Ages '+result.minAge+' </span> </label>' +
-            '</div>' +
-            '</div>';
-         } else {
-                   var newHTML = '<div class="input-container2 sm-margin-20px-bottom">' +
-            '<input id="Mixed-Age Kindergarten" class="radio-button2" type="radio" checked name="admission_opted_for" value="17" required title="Please Select One Option">' +
-            '<div class="radio-tile2">' +
-            '<label for="2023 Intake" class="radio-tile-label2 no-margin-bottom"><strong style="font-size: x-large;">Other</strong> <br/></label>' +
-            '</div>' +
-            '</div>';
-         }
-
-
-// Now, let's use jQuery to replace the content
-$('#studentEligibleFor').html(newHTML);
-			$('input[type="radio"][name="admission_opted_for"]').valid();
-		});
-
+ $('#admission_opted_for').on('change', toggleStreamInterestField);
+ toggleStreamInterestField();
 
 
 			$('#contact-form-31').validate({
@@ -438,6 +362,12 @@ $('#studentEligibleFor').html(newHTML);
 						required: true,
 						email: true
 					},
+					stream_interest: {
+						required: function(element) {
+							var selectedGrade = $('#admission_opted_for').val();
+							return selectedGrade === '15' || selectedGrade === '16';
+						}
+					},
 					alumni_date: {
 						required: function(element) {
 							return $('input[name="alumni"]:checked').val() === '1';
@@ -445,6 +375,9 @@ $('#studentEligibleFor').html(newHTML);
 					}
 				},
 				messages: {
+					stream_interest: {
+						required: "Please select stream interest"
+					},
 					alumni_date: {
 						required: "Please enter alumni date"
 					}
@@ -462,7 +395,7 @@ $('#studentEligibleFor').html(newHTML);
 						    response = JSON.parse(response)
 							console.log(response.status, response, response.message, response.status == 'success', typeof response);
 							if(response.status == 'success') {
-							    window.location.href = 'https://slokawaldorf.in/thank-you/';
+								    window.location.href = 'https://slokawaldorf.in/admissions-thank-you/';
 							} else {
 							  alert(response.message);
 							}
