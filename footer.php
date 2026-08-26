@@ -148,7 +148,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-        <h5>Admissions are open for Senior Secondary  ( Grade XI) 2025 -26.</h5>
+	        <h5>Admissions are open for Senior Secondary  ( Grades XI &amp; XII Humanities and Commerce) 2026-27.</h5>
 		<p>
 			Enroll Your Details
 		</p>
@@ -202,7 +202,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-		  <h5>Admissions are open for Senior Secondary  ( Grade XI) 2025 -26.</h5>
+			  <h5>Admissions are open for Senior Secondary  ( Grades XI &amp; XII Humanities and Commerce) 2026-27.</h5>
 
 		  <div class="modal-copy">
 			  <p>
@@ -226,7 +226,7 @@
           <span aria-hidden="true">&times;</span>
         </button>
 
-		  <h5>Admissions Now Open for Grade XI &amp; other grades for the Academic Year 2026-27</h5>
+		  <h5>Admissions Now Open for Grades XI &amp; XII Humanities and Commerce, and other grades, for the Academic Year 2026-27</h5>
 
 		  <div class="modal-copy">
 			  <p>

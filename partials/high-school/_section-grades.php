@@ -14,11 +14,10 @@
                     <div
                         class="padding-fifteen-lr padding-ten-tb bg-white border-radius-left md-padding-three-lr sm-padding-seven-lr wow fadeIn">
                         <h5 class="alt-font font-weight-600">Introducing Grades 11 &amp; 12 at Sloka</h5>
-                        <p class=" ">On entering the 27th academic year in 2024-25, Sloka is extending the curriculum to
-                            the Humanities and Commerce streams for Grades 11 and 12. Collaborating with two principals
-                            from reputed schools in Hyderabad, we have created a relevant and exciting mix of subjects
-                            for the senior school. We have also had exhaustive sessions with international Waldorf
-                            teachers to dovetail the curriculum with CBSE norms.</p>
+	                        <p class=" ">In the 2026-27 academic year, Sloka offers Humanities and Commerce streams for Grades 11 and 12. Collaborating with two principals
+	                            from reputed schools in Hyderabad, we have created a relevant and exciting mix of subjects
+	                            for the senior school. We have also had exhaustive sessions with international Waldorf
+	                            teachers to dovetail the curriculum with CBSE norms.</p>
 
                         <div class="BtnSloka"><a
                                 class="alt-font text-theme lg-margin-15px-bottom d-table d-lg-inline-block md-margin-lr-auto md-margin-10px-lr sm-margin-10px-right sm-no-margin-left sm-text-left padding-20px-right sm-no-margin-bottom"
