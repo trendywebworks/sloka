@@ -102,7 +102,7 @@
 
 								<div class="col-12 col-lg-12 col-md-12 border-top sm-no-border border-color-black padding-20px-top sm-padding-5px-top">
 									<div class="padding-ten-right md-padding-three-lr sm-padding-three-lr wow fadeIn" >
-										 <b> Hyderabad --- </b>  <a href="https://maps.app.goo.gl/StcedGHGF39vEkiRA" class="text-black" target="_blank">Jubilee Hills </a> -
+										 <b> Hyderabad - </b>  <a href="https://maps.app.goo.gl/StcedGHGF39vEkiRA" class="text-black" target="_blank">Jubilee Hills </a> -
 										  <a href="https://maps.app.goo.gl/nJpJRNP3ePDUFvx39" class="text-black" target="_blank"> Aziz Nagar </a>
 									</div>
 
