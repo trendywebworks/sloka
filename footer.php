@@ -339,6 +339,99 @@ $(document).ready(function() {
 	autoclose: true
  });
 
+ function ensureAdmissionsFormFields() {
+	var form = $('#contact-form-31');
+	if (!form.length) {
+		return;
+	}
+
+	var intakeInputs = form.find('input[name="enquiry_ay"]');
+	if (intakeInputs.length >= 2) {
+		var firstIntake = intakeInputs.eq(0);
+		var secondIntake = intakeInputs.eq(1);
+
+		firstIntake.attr({
+			id: '2026 Intake',
+			value: '13',
+			required: true
+		});
+		firstIntake.closest('.input-container').find('label')
+			.attr('for', '2026 Intake')
+			.html(' 2026 Intake ');
+
+		secondIntake.attr({
+			id: '2027 Intake',
+			value: '14'
+		});
+		secondIntake.closest('.input-container').find('label')
+			.attr('for', '2027 Intake')
+			.html(' 2027 Intake ');
+	}
+
+	if (!$('#admission_opted_for').length && $('#dob').length) {
+		$('#dob').closest('.col-12').after(
+			'<div class="col-12 col-lg-8">' +
+				'<p class="margin-5px-bottom"> Grade seeking admission for <span class="text-deep-pink">*</span> </p>' +
+				'<select name="admission_opted_for" id="admission_opted_for" class="big-input borderRoundCorner" required title="Please select the grade seeking admission for">' +
+					'<option value="">Select grade</option>' +
+					'<option value="3">Kindergarten</option>' +
+					'<option value="5">Grade 1</option>' +
+					'<option value="6">Grade 2</option>' +
+					'<option value="7">Grade 3</option>' +
+					'<option value="8">Grade 4</option>' +
+					'<option value="9">Grade 5</option>' +
+					'<option value="10">Grade 6</option>' +
+					'<option value="11">Grade 7</option>' +
+					'<option value="12">Grade 8</option>' +
+					'<option value="13">Grade 9</option>' +
+					'<option value="14">Grade 10</option>' +
+					'<option value="15">Grade 11</option>' +
+					'<option value="16">Grade 12</option>' +
+				'</select>' +
+				'<div class="error-message"></div>' +
+			'</div>' +
+			'<div class="col-12 col-lg-8" id="streamInterestField" style="display:none;">' +
+				'<p class="margin-5px-bottom"> Stream interested in <span class="text-deep-pink">*</span> </p>' +
+				'<select name="stream_interest" id="stream_interest" class="big-input borderRoundCorner" title="Please select the stream interested in">' +
+					'<option value="">Select stream</option>' +
+					'<option value="humanities">Humanities</option>' +
+					'<option value="commerce">Commerce</option>' +
+					'<option value="not_sure">Not sure / Would like counselling</option>' +
+				'</select>' +
+				'<div class="error-message"></div>' +
+			'</div>'
+		);
+	}
+
+	if (!$('#first_heard_about_sloka').length && $('#city').length) {
+		$('#city').closest('.col-12').after(
+			'<div class="col-12 col-lg-6">' +
+				'<p class="margin-5px-bottom"> How did you first hear about Sloka? <span class="text-deep-pink">*</span></p>' +
+				'<select name="first_heard_about_sloka" id="first_heard_about_sloka" class="big-input borderRoundCorner" required title="Please select how you first heard about Sloka">' +
+					'<option value="">Select source</option>' +
+					'<option value="existing_sloka_parent">Existing Sloka parent</option>' +
+					'<option value="friend_family">Friend / Family</option>' +
+					'<option value="sloka_alumnus_alumni">Sloka alumnus/alumni</option>' +
+					'<option value="google_search">Google Search</option>' +
+					'<option value="google_maps">Google Maps</option>' +
+					'<option value="instagram">Instagram</option>' +
+					'<option value="facebook">Facebook</option>' +
+					'<option value="youtube">YouTube</option>' +
+					'<option value="press_article">Press / Article</option>' +
+					'<option value="event">Event</option>' +
+					'<option value="education_counsellor">Education counsellor</option>' +
+					'<option value="creator_influencer">Creator / Influencer</option>' +
+					'<option value="whatsapp">WhatsApp</option>' +
+					'<option value="other">Other</option>' +
+				'</select>' +
+				'<div class="error-message"></div>' +
+			'</div>'
+		);
+	}
+ }
+
+ ensureAdmissionsFormFields();
+
  function toggleStreamInterestField() {
 	var selectedGrade = $('#admission_opted_for').val();
 	var shouldShow = selectedGrade === '15' || selectedGrade === '16';
