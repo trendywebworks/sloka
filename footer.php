@@ -241,6 +241,7 @@
 </div>
 -->
 
+<!--
 <div class="modal" tabindex="-1" role="dialog" id="myModal">
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
@@ -251,14 +252,14 @@
         </button>
 
 		<div class="modal-copy">
-			<img src="<?php echo get_bloginfo('template_directory'); ?>/images/sstep.webp" alt="Sloka Steiner Teacher Education Programme" class="img-responsive">
+			<img src="<?php //echo get_bloginfo('template_directory'); ?>/images/sstep.webp" alt="Sloka Steiner Teacher Education Programme" class="img-responsive">
 		</div>
 
       </div>
     </div>
   </div>
 </div>
-
+-->
 
 <!-- javascript libraries -->
 <script type="text/javascript" src="<?php echo get_bloginfo('template_directory'); ?>/js/jquery.js"></script>
