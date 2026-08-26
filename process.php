@@ -5,10 +5,52 @@ $dobDateTime = DateTime::createFromFormat('d/m/Y', $dobDateString);
 $dob = $dobDateTime->format('Y-m-d');
 
 $alumniDateString = $_POST['alumni_date'];
+$alumniDate = "";
 if($alumniDateString) {
     $alumniDateTime = DateTime::createFromFormat('d/m/Y', $alumniDateString);
     $alumniDate = $alumniDateTime->format('Y-m-d');
 }
+
+$gradeLabels = [
+    "3" => "Kindergarten",
+    "5" => "Grade 1",
+    "6" => "Grade 2",
+    "7" => "Grade 3",
+    "8" => "Grade 4",
+    "9" => "Grade 5",
+    "10" => "Grade 6",
+    "11" => "Grade 7",
+    "12" => "Grade 8",
+    "13" => "Grade 9",
+    "14" => "Grade 10",
+    "15" => "Grade 11",
+    "16" => "Grade 12",
+];
+$intakeLabels = [
+    "13" => "2026 Intake",
+    "14" => "2027 Intake",
+];
+$streamLabels = [
+    "humanities" => "Humanities",
+    "commerce" => "Commerce",
+    "not_sure" => "Not sure / Would like counselling",
+];
+$firstHeardLabels = [
+    "existing_sloka_parent" => "Existing Sloka parent",
+    "friend_family" => "Friend / Family",
+    "sloka_alumnus_alumni" => "Sloka alumnus/alumni",
+    "google_search" => "Google Search",
+    "google_maps" => "Google Maps",
+    "instagram" => "Instagram",
+    "facebook" => "Facebook",
+    "youtube" => "YouTube",
+    "press_article" => "Press / Article",
+    "event" => "Event",
+    "education_counsellor" => "Education counsellor",
+    "creator_influencer" => "Creator / Influencer",
+    "whatsapp" => "WhatsApp",
+    "other" => "Other",
+];
 
 $data = ["api_key" => "78O08NNYHRT4532FTGU",
     "student_name" => $_POST['student_name'],
@@ -62,15 +104,21 @@ print_r($result);
 
 if(isset($_POST['email'])){
     $enquiry_ay = $_POST["enquiry_ay"];
+    $enquiryAyLabel = isset($intakeLabels[$enquiry_ay]) ? $intakeLabels[$enquiry_ay] : $enquiry_ay;
     $name = $_POST['student_name'];
     $birthdate = $_POST['dob'];
     $schoolname = $_POST['present_school'];
     $sibling = $_POST['siblings'];
     $eligibleforclass = $_POST['admission_opted_for'];
+    $eligibleforclassLabel = isset($gradeLabels[$eligibleforclass]) ? $gradeLabels[$eligibleforclass] : $eligibleforclass;
+    $streamInterest = isset($_POST['stream_interest']) ? $_POST['stream_interest'] : "";
+    $streamInterestLabel = isset($streamLabels[$streamInterest]) ? $streamLabels[$streamInterest] : "";
     $parentname = $_POST['father_name'];
     $parentphnumber = $_POST['mobile'];
     $from = $_POST['email'];
     $currentcity = $_POST['city'];
+    $firstHeardAboutSloka = isset($_POST['first_heard_about_sloka']) ? $_POST['first_heard_about_sloka'] : "";
+    $firstHeardAboutSlokaLabel = isset($firstHeardLabels[$firstHeardAboutSloka]) ? $firstHeardLabels[$firstHeardAboutSloka] : $firstHeardAboutSloka;
     $alumni = $_POST['alumni'];
     $alumnidate = $_POST['alumni_date'];
 
@@ -101,7 +149,7 @@ if(isset($_POST['email'])){
         <tr>
         <tr>
         <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'> Which academic year do you seek admission for? :</td>
-        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$enquiry_ay."</td>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$enquiryAyLabel."</td>
         </tr>
 
         <tr>
@@ -129,8 +177,13 @@ if(isset($_POST['email'])){
         </tr>
 
         <tr>
-        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>  Student is eligible for : </td>
-        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$eligibleforclass."</td>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>  Grade seeking admission for : </td>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$eligibleforclassLabel."</td>
+        </tr>
+
+        <tr>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'>  Stream interested in : </td>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$streamInterestLabel."</td>
         </tr>
 
         <tr>
@@ -154,6 +207,11 @@ if(isset($_POST['email'])){
         <tr>
         <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'> Current city or town of residence :</td>
         <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$currentcity."</td>
+        </tr>
+
+        <tr>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 5px 7px 0;'> How did you first hear about Sloka? :</td>
+        <td align='left' valign='top' style='border-top:1px solid #dfdfdf; font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#000; padding:7px 0 7px 5px;'>".$firstHeardAboutSlokaLabel."</td>
         </tr>
 
         <tr>

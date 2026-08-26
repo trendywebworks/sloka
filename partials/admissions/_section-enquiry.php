@@ -23,19 +23,19 @@
                                 <div class="Radiocontainer">
                                     <div class="radio-tile-group">
                                         <div class="input-container">
-                                            <input id="2025 Intake" class="radio-button" type="radio" name="enquiry_ay"
-                                                value="12" required>
+                                            <input id="2026 Intake" class="radio-button" type="radio" name="enquiry_ay"
+                                                value="13" required>
                                             <div class="radio-tile">
-                                                <label for="2025 Intake" class="radio-tile-label no-margin-bottom"> 2025
+                                                <label for="2026 Intake" class="radio-tile-label no-margin-bottom"> 2026
                                                     Intake </label>
                                             </div>
                                         </div>
 
                                         <div class="input-container">
-                                            <input id="2026 Intake" class="radio-button" type="radio" name="enquiry_ay"
-                                                value="13">
+                                            <input id="2027 Intake" class="radio-button" type="radio" name="enquiry_ay"
+                                                value="14">
                                             <div class="radio-tile">
-                                                <label for="2026 Intake" class="radio-tile-label no-margin-bottom"> 2026
+                                                <label for="2027 Intake" class="radio-tile-label no-margin-bottom"> 2027
                                                     Intake </label>
                                             </div>
                                         </div>
@@ -67,6 +67,38 @@
 
                                 <div class="error-message"></div>
                             </div>
+                            <div class="col-12 col-lg-8">
+                                <p class="margin-5px-bottom"> Grade seeking admission for <span class="text-deep-pink">*</span> </p>
+                                <select name="admission_opted_for" id="admission_opted_for"
+                                    class="big-input borderRoundCorner" required title="Please select the grade seeking admission for">
+                                    <option value="">Select grade</option>
+                                    <option value="3">Kindergarten</option>
+                                    <option value="5">Grade 1</option>
+                                    <option value="6">Grade 2</option>
+                                    <option value="7">Grade 3</option>
+                                    <option value="8">Grade 4</option>
+                                    <option value="9">Grade 5</option>
+                                    <option value="10">Grade 6</option>
+                                    <option value="11">Grade 7</option>
+                                    <option value="12">Grade 8</option>
+                                    <option value="13">Grade 9</option>
+                                    <option value="14">Grade 10</option>
+                                    <option value="15">Grade 11</option>
+                                    <option value="16">Grade 12</option>
+                                </select>
+                                <div class="error-message"></div>
+                            </div>
+                            <div class="col-12 col-lg-8" id="streamInterestField" style="display:none;">
+                                <p class="margin-5px-bottom"> Stream interested in <span class="text-deep-pink">*</span> </p>
+                                <select name="stream_interest" id="stream_interest"
+                                    class="big-input borderRoundCorner" title="Please select the stream interested in">
+                                    <option value="">Select stream</option>
+                                    <option value="humanities">Humanities</option>
+                                    <option value="commerce">Commerce</option>
+                                    <option value="not_sure">Not sure / Would like counselling</option>
+                                </select>
+                                <div class="error-message"></div>
+                            </div>
                             <div class="col-12 col-lg-12">
                                 <p class="margin-5px-bottom"> Current School </p>
                                 <input type="text" name="present_school" title="present school" value=""
@@ -93,26 +125,6 @@
                                 </div>
                                 <div class="error-message"></div>
                             </div>
-
-                            <!--<div class="col-12">
-                                <p class="alt-font margin-15px-bottom text-extra-large"> Student is eligible for <span
-                                        class="text-deep-pink">*</span> </p>
-                            </div>-->
-                            <div class="col-12 col-lg-12 padding-20px-bottom" style="display:none;">
-                                <div class="radioContainer2 alt-font">
-                                    <div class="radio-tile-group2">
-                                        <div id="studentEligibleFor"></div>
-                                    </div>
-                                </div>
-                                <div class="error-message"></div>
-                            </div>
-
-                            <div class="col-12 padding-five-bottom">
-                                <p class="margin-15px-bottom text-small"> The above is based on the school’s grade wise
-                                    cut-off age, for more information on this please speak to the admissions team or
-                                    contact us </p>
-                            </div>
-
 
                             <div class="col-12">
                                 <p class="alt-font margin-15px-bottom text-extra-large"> Parent’s information </p>
@@ -151,6 +163,30 @@
                                 <div class="error-message"></div>
                             </div>
 
+                            <div class="col-12 col-lg-6">
+                                <p class="margin-5px-bottom"> How did you first hear about Sloka? <span
+                                        class="text-deep-pink">*</span></p>
+                                <select name="first_heard_about_sloka" id="first_heard_about_sloka"
+                                    class="big-input borderRoundCorner" required title="Please select how you first heard about Sloka">
+                                    <option value="">Select source</option>
+                                    <option value="existing_sloka_parent">Existing Sloka parent</option>
+                                    <option value="friend_family">Friend / Family</option>
+                                    <option value="sloka_alumnus_alumni">Sloka alumnus/alumni</option>
+                                    <option value="google_search">Google Search</option>
+                                    <option value="google_maps">Google Maps</option>
+                                    <option value="instagram">Instagram</option>
+                                    <option value="facebook">Facebook</option>
+                                    <option value="youtube">YouTube</option>
+                                    <option value="press_article">Press / Article</option>
+                                    <option value="event">Event</option>
+                                    <option value="education_counsellor">Education counsellor</option>
+                                    <option value="creator_influencer">Creator / Influencer</option>
+                                    <option value="whatsapp">WhatsApp</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="error-message"></div>
+                            </div>
+
                             <div class="col-12 col-lg-12 padding-five-bottom">
 
                                 <div class="RadioInline">
@@ -176,7 +212,7 @@
                                     <p class="margin-5px-bottom margin-20px-right width-40"> If yes, enter date </p>
 
                                     <input type="text" name="alumni_date" id="alumni_date" data-provide="datepicker"
-                                        placeholder="mm/dd/yyyy" class="OnlyborderBottom datepicker"
+                                        placeholder="dd/mm/yyyy" class="OnlyborderBottom datepicker"
                                         title="Please Enter Valid Date">
                                 </div>
                                 <div class="error-message"></div>
