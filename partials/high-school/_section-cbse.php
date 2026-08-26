@@ -46,7 +46,7 @@
                     <div
                         class="col-12 col-lg-6 padding-five-right sm-padding-three-lr sm-padding-10px-bottom wow fadeIn order-2 order-lg-1">
                         <div class="padding-nine-left sm-padding-three-lr">
-                            <h5 class="alt-font margin-15px-bottom">Subjects offered for Grade 11</h5>
+	                            <h5 class="alt-font margin-15px-bottom">Subjects offered for Grades 11 and 12</h5>
 
                             <!-- start accordion new -->
                             <div class="panel-group panel-new-style" id="accordion-two">

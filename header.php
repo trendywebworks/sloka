@@ -186,7 +186,7 @@
                     <div class="row align-items-center">
                         <div class="col-md-12 text-black">
 							
-                            <a href="<?php echo esc_url( home_url( '/11th-12th-admissions/' ) ); ?>" class="text-black"> Admissions for  <span class="font-weight-600"> Grade XI Humanities and Commerce </span> now open. In our 27th academic year in <b>2026-27</b>, we’re overjoyed to extend our curriculum exclusively to the Humanities stream for Grade 11. </a>
+	                            <a href="<?php echo esc_url( home_url( '/11th-12th-admissions/' ) ); ?>" class="text-black"> Admissions for <span class="font-weight-600">Grades XI &amp; XII Humanities and Commerce</span> now open. In our 27th academic year in <b>2026-27</b>, we’re delighted to offer Humanities and Commerce for Grades 11 and 12. </a>
 							
 							<!--
 							<a href="<?php //echo esc_url( home_url( '/11th-12th-admissions/' ) ); ?>" class="text-black"> <strong>Admissions open for Grade XI</strong> </a>
